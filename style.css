@@ -1,0 +1,210 @@
+/* Reset default margin and padding for the list */
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+.navbar svg, img {
+  padding-right: 5px;
+}
+/* Style for the navigation bar */
+ul.navbar {
+  margin: 0px;
+  padding-top: 5px;
+  background-color: #ffffff; /* Background color for the bar */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Center the navbar horizontally */
+}
+
+/* Style for the list items in the navigation bar */
+ul.navbar li {
+  float: left; /* Float the list items horizontally */
+}
+
+/* Style for the links within the list items */
+ul.navbar li a {
+  display: block;
+  color: rgb(0, 0, 0); /* Text color */
+  text-align: center;
+  padding: 14px 16px; /* Spacing around the text */
+  text-decoration: none;
+}
+
+/* Change link color on hover */
+ul.navbar li a:hover {
+  text-decoration: underline;
+  color: rgb(0, 174, 255);
+}
+
+.main-content {
+  display: flex; /* Use flexbox layout to create a horizontal layout */
+  align-items: center; /* Vertically center the content */
+}
+
+.content {
+  flex: 1; /* Allow the content to take up available space */
+}
+
+.content img{
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+.content h1 {
+  padding: 90px; /* Remove default margin */
+  font-size: 90px;
+  padding-left: 30px;
+  margin: 20px; /* Adjust the font size as needed */
+}
+
+.content p {
+  padding-left: 30px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.content a {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #ff947f;
+}
+
+.image-container img {
+  max-height: 100%; /* Ensure the image scales to fit the container's height */
+  max-width: 100%; /* Ensure the image scales to fit the container's width */
+  object-fit: cover; /* Maintain the image's aspect ratio and cover the container */
+}
+.horizontal-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Add space between items */
+  max-width: 800px; /* Set a maximum width to control the width of the items */
+  margin: 0 auto; /* Center the list horizontally */
+}
+
+.horizontal-list p{
+    color: #4e4e4e;
+    font-size: large;
+}
+
+.horizontal-list li {
+font-size: 25px;
+text-align: left;
+  flex-basis: calc(33.33% - 10px); /* Distribute the items in 3 columns with spacing (adjust as needed) */
+  margin-right: 10px; /* Add some space between the items (adjust as needed) */
+}
+
+.quotes {
+  text-align: center;
+  background-color: #71cfd6;
+  padding-top: 2px;
+  color: white;
+}
+
+.quotes h1 {
+  margin-top: 200px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.quotes p {
+  margin-left: 600px;
+  margin-right: 600px;
+  padding-bottom: 40px;
+}
+
+.quotes a{
+    background-color: #ff947f;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.content-2 {
+    display: flex;
+    margin: 100px;
+}
+
+.content-2 h2 {
+    padding-left: 60px;
+}
+
+
+.paragraph {
+    padding-left: 120px;
+    margin-top: 100px;
+}
+
+.testimoni{
+    text-align: center;
+    background-color: #ff947f;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px;
+}
+.testimoni p{
+    padding: 80px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .footer-column {
+    flex: 1;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.footer-column li, p{
+    padding: 10px;
+}
+
+.footer-column svg{
+    width: 200px;
+    height: 100px;
+}
+
+
